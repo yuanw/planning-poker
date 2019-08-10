@@ -1,0 +1,14 @@
+* planning-poker
+An exercise for haskell and purescript
+
+* stack 
+- purescript halogen
+- servant
+
+* how to build purescript
+
+#+BEGIN_SRC bash
+spago build
+# Build a production-level browser-backend file
+spago bundle-app --main Main --to dist/app.js
+#+END_SRC 
